@@ -1,0 +1,45 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-message {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--arc-reactor-blue);
+    border: 2px solid var(--arc-reactor-blue);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    transition: all 0.3s ease;
+}
+
+.email-button:hover {
+    background-color: rgba(0, 191, 255, 0.1);
+    color: var(--arc-reactor-blue);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-links a {
+    color: var(--text-secondary);
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--arc-reactor-blue);
+    transform: translateY(-5px);
+}

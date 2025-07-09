@@ -1,0 +1,15 @@
+.about-section {
+    background-color: var(--card-bg);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.about-content p {
+    margin-bottom: 1.5rem;
+}
